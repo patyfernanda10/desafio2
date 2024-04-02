@@ -1,0 +1,142 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    }
+    body{
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+/* header*/
+header{
+    background-color: #25193f;
+    border-bottom: 3px, solid, #fff;
+    position: sticky;
+    top: 0%;
+    right: 0%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid white;
+}
+/* section name*/
+.name{
+font-family: "Stalinist One","cursive";
+font-size: 1.5rem;
+color: #e64b49;
+display: inline;
+padding: 2%;
+}
+.name a{
+text-decoration: none;
+color: #e64b49;
+}
+
+/*nav*/
+header nav{
+    width: 70%;
+}
+/*ul*/
+.name-ul{
+    font-family: "Permanent Marker", "cursive";
+    color: #f6e712;;
+    font-size: 1.2rem;
+    text-align: right;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+/*li*/
+.name-ul li{
+    display: inline;
+    padding-left: 3%;
+    padding-right: 3%;
+    justify-content: flex-end; 
+}
+/*section bio*/
+.bio{
+    width: 100vw;
+    border: 3%, solid, #fff;
+    background-size: contain;
+    overflow: auto;
+    height: auto;
+    position: relative;
+}
+.img-fit{
+ width: 100%;   
+ height: 100%;
+
+}
+.img-fit img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.bio-ul{
+    font-family: 'Nerko One', cursive;
+    color: #ffffff;
+    text-shadow: 4px 4px 4px #000000;
+    display: flex;
+    flex-direction: column;
+}
+.bio-p{
+    font-family: 'Nerko One', cursive;
+    color: #ffffff;
+    text-shadow: 4px 4px 4px #000000;
+}
+h1{
+font-family: "Yanone Kaffeesatz", "sans-serif";
+text-shadow: 2px 2px 0px #fff;
+color: #2b2660;;
+text-decoration: underline;
+font-size: 3em;
+margin-top: 1%;
+margin-bottom: 1%;
+}
+
+footer{
+        background-color: #25193f;
+        border-top: 3px solid #fcffff;
+        position: fixed;
+        text-align: center;
+        bottom: 0;
+        width: 100%;
+        height: 7%;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 0.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+footer ul{
+    display: flex;
+    gap: 2rem;
+}
+footer a{
+     color: #7ecdec;
+     text-decoration: none;
+
+}
+li{display: inline;}
+
+   .bio-card{
+    position: absolute;
+    top: 0%;
+    background-image: url(fotinha.png);
+    background-color: #497979;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 350px;
+    height: 250px;
+    margin: 2%;
+    padding: 1%;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+   
+  
